@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* AUTH */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  width: 380px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card input,
+.card select {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  background: #0f172a;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.card button {
+  padding: 12px;
+  margin-top: 10px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ROLE */
+.role-box {
+  display: flex;
+  gap: 10px;
+}
+
+.role-card {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #334155;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.role-card.active {
+  background: #1d4ed8;
+}
+
+/* DASHBOARD */
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background: #2563eb;
+}
+
+.user-box {
+  margin-top: 20px;
+  border-top: 1px solid #334155;
+  padding-top: 10px;
+}
+
+.logout {
+  margin-top: 10px;
+  background: red;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* ENGINEER */
+.card-box {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #0f172a;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: #38bdf8;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-card {
+  flex: 1;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* HR */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.stat-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.section {
+  margin-top: 20px;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
